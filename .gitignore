@@ -1,0 +1,10 @@
+# Ignore zip files
+*.zip
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
