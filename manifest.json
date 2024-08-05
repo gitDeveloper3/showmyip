@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "IP Display",
+    "version": "1.0",
+    "description": "Displays your IP address",
+    "permissions": [
+      "activeTab",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "48": "logo.png"
+      }
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "48": "logo.png"
+    }
+  }
+  
